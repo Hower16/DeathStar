@@ -3,6 +3,6 @@
     public interface IChangeTemperature
     {
         int CoolDown();
-        int HeadUp();
+        int HeatUp();
     }
 }
