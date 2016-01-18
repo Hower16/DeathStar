@@ -56,14 +56,17 @@
     <Compile Include="HeatExchanger.cs" />
     <Compile Include="HyperDrive.cs" />
     <Compile Include="Hypermatterreactor.cs" />
+    <Compile Include="IChangeTemperature.cs" />
     <Compile Include="Iondrivereactor.cs" />
     <Compile Include="MagneticShielding.cs" />
     <Compile Include="Mainexhaustport.cs" />
     <Compile Include="Mainpowergenerator.cs" />
     <Compile Include="Overbridge.cs" />
+    <Compile Include="PortBase.cs" />
     <Compile Include="PowerCell.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Reactor.cs" />
     <Compile Include="ReactorCore.cs" />
     <Compile Include="Refinery.cs" />
     <Compile Include="SuperLaser.cs" />

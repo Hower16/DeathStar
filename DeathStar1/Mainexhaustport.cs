@@ -2,5 +2,9 @@
 {
     public class Mainexhaustport : ExhaustPort
     {
+        public Mainexhaustport()
+        {
+            
+        }
     }
 }

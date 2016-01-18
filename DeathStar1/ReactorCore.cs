@@ -5,5 +5,6 @@
         WaterReactor WaterReactor;
         FuelRods FuelRods;
         ControlRods Controlrods;
+        internal int Temperature;
     }
 }
