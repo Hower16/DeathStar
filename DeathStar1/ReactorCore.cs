@@ -1,8 +1,10 @@
-﻿namespace DeathStar1
+﻿using System;
+
+namespace DeathStar1
 {
-    public class ReactorCore
+    public class ReactorCore : IChangeTemperature
     {
-        internal int Temperature;
+        public int Temperature;
         int fuelRods;
         int fueldRodLevel;
         int controlRods;
@@ -28,6 +30,18 @@
             {
                 return 0;
             }
+        }
+
+        public int CoolDown()
+        {
+            Temperature--;
+            return -1;
+        }
+
+        public int HeatUp()
+        {
+            Temperature++;
+            return 1;
         }
     }
 }

@@ -10,8 +10,8 @@
         Overbridge Overbridge;
         HangarBay HangarBay;
         SuperLaser SuperLaser;
-        WaterTanks WaterTanks;
-        
+        CommandCore CommandCore;
+        SurfaceSprawls SurfaceSprawls;
         Armory Armory;
         #endregion
         #region dave
