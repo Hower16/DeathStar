@@ -15,19 +15,19 @@
         Armory Armory;
         #endregion
         #region dave
-        Mainexhaustport Mainexhaustport;//
-        Thermalexhaustport Thermalexhaustport;//
+        Mainexhaustport Mainexhaustport;
+        Thermalexhaustport Thermalexhaustport;
 
 
-        Tractorbeamgeneratortower Tractorbeamgeneratortower;//
-        Mainpowergenerator Mainpowergenerator;//
-        Hypermatterreactor Hypermatterreactor;//
-        Iondrivereactor Iondrivereactor;//
-        Refinery Refinery;//
+        Tractorbeamgeneratortower Tractorbeamgeneratortower;
+        Mainpowergenerator Mainpowergenerator;
+        Hypermatterreactor Hypermatterreactor;
+        Iondrivereactor Iondrivereactor;
+        Refinery Refinery;
         FuelCollector FuelCollector;
 
-        CoolingSystem CoolingSystem;//
-        HeatExchanger HeatExchanger;//
+        CoolingSystem CoolingSystem;
+        HeatExchanger HeatExchanger;
         
         MagneticShielding MagneticShielding;
         ExteriorQuadaniumsteelouterhull ExteriorQuadaniumsteelouterhull;
