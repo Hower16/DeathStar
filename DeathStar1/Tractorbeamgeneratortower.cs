@@ -2,5 +2,10 @@
 {
     public class Tractorbeamgeneratortower
     {
+        public int TractorBeamLevel;
+        public void GenerateTractorBeam()
+        {
+            TractorBeamLevel++;
+        }
     }
 }

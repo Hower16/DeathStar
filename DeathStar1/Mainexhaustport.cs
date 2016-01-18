@@ -1,6 +1,6 @@
 ﻿namespace DeathStar1
 {
-    public class Mainexhaustport
+    public class Mainexhaustport : ExhaustPort
     {
     }
 }

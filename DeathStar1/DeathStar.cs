@@ -17,16 +17,21 @@
         #region dave
         Mainexhaustport Mainexhaustport;
         Thermalexhaustport Thermalexhaustport;
+
+
         Tractorbeamgeneratortower Tractorbeamgeneratortower;
         Mainpowergenerator Mainpowergenerator;
         Hypermatterreactor Hypermatterreactor;
         Iondrivereactor Iondrivereactor;
         Refinery Refinery;
+        FuelCollector FuelCollector;
+
         CoolingSystem CoolingSystem;
         HeatExchanger HeatExchanger;
-        FuelCollector FuelCollector;
+        
         MagneticShielding MagneticShielding;
         ExteriorQuadaniumsteelouterhull ExteriorQuadaniumsteelouterhull;
+        
         #endregion
     }
 }
