@@ -2,8 +2,8 @@
 {
     public class DeathStar
     {
+        #region mike
         ReactorCore ReactorCore;
-            
         PowerCell PowerCell;
         CentralComputerCore CentralComputerCore;
         HyperDrive HyperDrive;
@@ -13,6 +13,8 @@
         CommandCore CommandCore;
         SurfaceSprawls SurfaceSprawls;
         Armory Armory;
+        #endregion
+        #region dave
         Mainexhaustport Mainexhaustport;
         Thermalexhaustport Thermalexhaustport;
         Tractorbeamgeneratortower Tractorbeamgeneratortower;
@@ -25,6 +27,6 @@
         FuelCollector FuelCollector;
         MagneticShielding MagneticShielding;
         ExteriorQuadaniumsteelouterhull ExteriorQuadaniumsteelouterhull;
-
+        #endregion
     }
 }
