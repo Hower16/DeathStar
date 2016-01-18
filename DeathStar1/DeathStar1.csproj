@@ -46,12 +46,10 @@
     <Compile Include="Armory.cs" />
     <Compile Include="CentralComputerCore.cs" />
     <Compile Include="CommandCore.cs" />
-    <Compile Include="ControlRods.cs" />
     <Compile Include="CoolingSystem.cs" />
     <Compile Include="DeathStar.cs" />
     <Compile Include="ExteriorQuadaniumsteelouterhull.cs" />
     <Compile Include="FuelCollector.cs" />
-    <Compile Include="FuelRods.cs" />
     <Compile Include="HangarBay.cs" />
     <Compile Include="HeatExchanger.cs" />
     <Compile Include="HyperDrive.cs" />
@@ -70,7 +68,7 @@
     <Compile Include="SurfaceSprawls.cs" />
     <Compile Include="Thermalexhaustport.cs" />
     <Compile Include="Tractorbeamgeneratortower.cs" />
-    <Compile Include="WaterReactor.cs" />
+    <Compile Include="WaterTanks.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

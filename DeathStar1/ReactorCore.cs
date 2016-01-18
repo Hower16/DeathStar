@@ -2,8 +2,13 @@
 {
     public class ReactorCore
     {
-        WaterReactor WaterReactor;
-        FuelRods FuelRods;
-        ControlRods Controlrods;
+        int fuelRods;
+        int controlRods;
+        int waterReactorLevel;
+
+        public ReactorCore()
+        {
+
+        }
     }
 }
