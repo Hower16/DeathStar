@@ -8,14 +8,18 @@
         int controlRods;
         int controlRodLevel;
         int waterReactorLevel;
+        int uraniumAmount;
+        int boronAmount;
 
-        public ReactorCore(int FuelRods, int FuelRodLevel, int ControlRods, int ControlRodLevel, int WaterReactorLevel)
+        public ReactorCore(int FuelRods, int FuelRodLevel, int ControlRods, int ControlRodLevel, int WaterReactorLevel, int UraniumAmount, int BoronAmount)
         {
             fuelRods = FuelRods;
             fueldRodLevel = FuelRodLevel;
             controlRods = ControlRods;
             controlRodLevel = ControlRodLevel;
             waterReactorLevel = WaterReactorLevel;
+            uraniumAmount = UraniumAmount;
+            boronAmount = BoronAmount;
         }
 
         public int CheckFuelRodLevel()
@@ -50,6 +54,16 @@
             {
                 return 0;
             }
+        }
+        public void UseUranium()
+        {
+            uraniumAmount--;
+            fueldRodLevel++;
+        }
+        public void UseBoron()
+        {
+            boronAmount--;
+            controlRodLevel++;
         }
     }
 }
