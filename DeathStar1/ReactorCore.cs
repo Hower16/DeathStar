@@ -1,8 +1,10 @@
-﻿namespace DeathStar1
+﻿using System;
+
+namespace DeathStar1
 {
-    public class ReactorCore
+    public class ReactorCore : IChangeTemperature
     {
-        internal int Temperature;
+        public int Temperature;
         int fuelRods;
         int fueldRodLevel;
         int controlRods;
@@ -33,6 +35,19 @@
                 return 0;
             }
         }
+<<<<<<< HEAD
+
+        public int CoolDown()
+        {
+            Temperature--;
+            return -1;
+        }
+
+        public int HeatUp()
+        {
+            Temperature++;
+            return 1;
+=======
         public int ControlRodLevel()
         {
             if (controlRodLevel > 0)
@@ -54,6 +69,7 @@
             {
                 return 0;
             }
+>>>>>>> bd056527ae534f095c26eb01f9bb61cc78cae654
         }
         public void UseUranium()
         {
