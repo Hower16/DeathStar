@@ -13,7 +13,10 @@ namespace DeathStar1
         {
             waterTankLevel = WaterTankLevel;
         }
-
+        public void LoseWater()
+        {
+            waterTankLevel--;
+        }
         public int CheckWaterLevel()
         {
             if (waterTankLevel > 0)

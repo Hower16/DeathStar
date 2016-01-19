@@ -45,7 +45,6 @@
   <ItemGroup>
     <Compile Include="Armory.cs" />
     <Compile Include="CentralComputerCore.cs" />
-    <Compile Include="CommandCore.cs" />
     <Compile Include="CoolingSystem.cs" />
     <Compile Include="DeathStar.cs" />
     <Compile Include="ExteriorQuadaniumsteelouterhull.cs" />

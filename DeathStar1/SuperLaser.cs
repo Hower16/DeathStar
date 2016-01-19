@@ -3,22 +3,16 @@
     public class SuperLaser
     {
         int laserPowerLevel;
-
-        public SuperLaser(int LaserPowerLevel)
+        int laserDamage;
+        public SuperLaser(int LaserPowerLevel, int LaserDamage)
         {
             laserPowerLevel = LaserPowerLevel;
+            laserDamage = LaserDamage;
         }
-        public int FireLaser()
+        public void FireLaser()
         {
-            if (laserPowerLevel > 0)
-            {
-                return laserPowerLevel;
-            }
-            else
-            {
-                return 0;
-            }
-            
+            laserPowerLevel--;
+            laserDamage++;
         }
     }
 }

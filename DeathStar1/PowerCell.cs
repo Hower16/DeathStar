@@ -7,6 +7,10 @@
         {
             powerLevel = PowerLevel;
         }
+        public void LosePower()
+        {
+            powerLevel--;
+        }
         public int CheckPowerLevel()
         {
             
