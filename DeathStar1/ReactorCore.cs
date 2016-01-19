@@ -31,6 +31,7 @@ namespace DeathStar1
                 return 0;
             }
         }
+<<<<<<< HEAD
 
         public int CoolDown()
         {
@@ -42,6 +43,29 @@ namespace DeathStar1
         {
             Temperature++;
             return 1;
+=======
+        public int ControlRodLevel()
+        {
+            if (controlRodLevel > 0)
+            {
+                return controlRodLevel;
+            }
+            else
+            {
+                return 0;
+            }
+        }
+        public int WaterReactorRodLevel()
+        {
+            if (waterReactorLevel > 0)
+            {
+                return waterReactorLevel;
+            }
+            else
+            {
+                return 0;
+            }
+>>>>>>> bd056527ae534f095c26eb01f9bb61cc78cae654
         }
     }
 }
